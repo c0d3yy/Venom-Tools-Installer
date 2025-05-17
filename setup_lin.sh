@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+oned#!/usr/bin/bash
 clear
 figlet -c "Team Venom"
 echo " "
@@ -20,7 +20,7 @@ case $answer in
 		;;
 	*)
 		echo " "
-		echo "Please give one of the answers."
+		echo "Please give one of the answers mentioned."
 		exit
 		;;
 esac
