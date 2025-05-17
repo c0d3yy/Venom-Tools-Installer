@@ -55,6 +55,7 @@ case $option in
 		echo "8) FBI"
 		echo "9) D-Tect"
 		echo "10) UserRecon"
+  		echo "11) Sherlock"
 		echo "A) Press A for All"
 		echo "B) Press B for Back"
 		echo "X) For exit"
@@ -136,6 +137,12 @@ case $option in
 				echo "<~~~~~~~~~~~Installing UserRecon~~~~~~~~~~~>"
 				git clone https://github.com/issamelferkh/userrecon
 				;;
+    			11)
+       				clear
+	   		    figlet -c "Team Venom"
+		  		echo "<~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>"
+		 		echo "<~~~~~~~~~~~Installing Sherlock~~~~~~~~~~~>"
+				git clone https://github.com/sherlock-project/sherlock
 			A)
 				clear
                     	    figlet -c "Team Venom"
@@ -151,6 +158,7 @@ case $option in
 				git clone https://github.com/KnightSec-Official/FBI
 				git clone https://github.com/hudacbr/D-TECT
 				git clone https://github.com/issamelferkh/userrecon
+    				git clone https://github.com/sherlock-project/sherlock
 				;;
 			B) 
 				bash venom.sh
