@@ -1,5 +1,6 @@
 #!/usr/bin/bash
 clear
+echo "Installing figlet for ascii art... "
 pkg install figlet
 figlet -c "Team Venom"
 echo " "
@@ -8,9 +9,13 @@ case $answer in
 	y)
 		clear
 		figlet -c "Team Venom"
+  		echo " Updating the system..."
 		pkg update
+  		echo " Upgrading the system..."
 		pkg upgrade
+  		echo " Launching git for cloning repos..."
 		pkg install git
+  		echo "Installation complated, launching main file"
 		bash venom.sh
 		;;
 	n)
