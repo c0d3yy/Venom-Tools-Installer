@@ -20,7 +20,7 @@ case $answer in
 		;;
 	*)
 		echo " "
-		echo "I don't understand you"
+		echo "Please select one of the options mentioned"
 		exit
 		;;
 esac
